@@ -1,17 +1,18 @@
 "use client";
 
-import type { ComponentType } from "react";
+// import type { ComponentType } from "react";
 import css from "./Pagination.module.css";
-import ReactPaginateModule from "react-paginate";
-import type { ReactPaginateProps } from "react-paginate";
+// import ReactPaginateModule from "react-paginate";
+// import type { ReactPaginateProps } from "react-paginate";
+import ReactPaginate from "react-paginate";
 
-type ModuleWithDefault<T> = { default: T };
+// type ModuleWithDefault<T> = { default: T };
 
-const ReactPaginate = (
-  ReactPaginateModule as unknown as ModuleWithDefault<
-    ComponentType<ReactPaginateProps>
-  >
-).default;
+// const ReactPaginate = (
+//   ReactPaginateModule as unknown as ModuleWithDefault<
+//     ComponentType<ReactPaginateProps>
+//   >
+// ).default;
 
 interface PaginationProps {
   totalPages: number;
